@@ -127,10 +127,10 @@
   background-repeat: no-repeat;
   background-color: #0a2750;
 }
-.header__recipes {
+.recipies__header__recipes {
   margin-left: 80px;
 }
-.header__recipes__title {
+.recipies__header__recipes-title {
   display: inline-flex;
   max-width: 580px;
   margin-top: 100px;
@@ -140,7 +140,7 @@
   font-size: 44px;
   line-height: 52px;
 }
-.header__recipes__subtitle {
+.recipies__header__recipes-subtitle {
   display: flex;
   max-width: 438px;
   margin-top: 24px;
