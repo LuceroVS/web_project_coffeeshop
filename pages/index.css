@@ -130,7 +130,7 @@
 .header__recipes {
   margin-left: 80px;
 }
-.title_recipes {
+.header_title_recipes {
   display: inline-flex;
   max-width: 580px;
   margin-top: 100px;
