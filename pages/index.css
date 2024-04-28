@@ -130,7 +130,7 @@
 .header__recipes {
   margin-left: 80px;
 }
-.header__recipes--title {
+.header__recipes__title {
   display: inline-flex;
   max-width: 580px;
   margin-top: 100px;
@@ -140,7 +140,7 @@
   font-size: 44px;
   line-height: 52px;
 }
-.subtitle {
+.header__recipes__subtitle {
   display: flex;
   max-width: 438px;
   margin-top: 24px;
