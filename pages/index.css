@@ -135,6 +135,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin-left: 80px;
 }
 .recipes__subtitle {
   display: flex;
@@ -145,6 +146,7 @@
   font-style: normal;
   font-size: 20px;
   line-height: 30px;
+  margin-left: 80px;
 }
 .recipes__videos {
   display: flex;
