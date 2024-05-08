@@ -275,13 +275,17 @@
   line-height: 20px;
 }
 .questionnaire__terminos {
+  display: flex;
+  justify-content: center;
+}
+.questionnaire__terminos_button {
   border-radius: 2px;
   height: 20px;
   width: 20px;
   margin-right: 12px;
 }
 
-.questionnaire__text__terminos {
+.questionnaire__terminos_text {
   color: #000000;
   margin-bottom: 120px;
   font-family: Inter;
