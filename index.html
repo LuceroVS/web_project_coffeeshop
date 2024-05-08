@@ -107,10 +107,16 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <h1 class="title_reservation">Reservar una mesa</h1>
+          <h2 class="reservation reservation_title_reservation">
+            Reservar una mesa
+          </h2>
           <form class="reservation__form">
             <fieldset class="questionnaire">
-              <label for="name" class="form__label">Nombre *</label>
+              <label
+                for="name"
+                class="reservation__form reservation_form__label"
+                >Nombre *</label
+              >
               <input
                 type="text"
                 class="reservation__form reservation__form__name reservation__form_input"
@@ -119,7 +125,9 @@
                 placeholder="Nombre"
                 required
               /><br />
-              <label for="comensales" class="form__label"
+              <label
+                for="comensales"
+                class="reservation__form reservation_form__label"
                 >Número de comensales *</label
               >
               <input
@@ -132,7 +140,9 @@
                 placeholder="1-8"
                 required
               /><br />
-              <label for="reservation_date" class="form__label"
+              <label
+                for="reservation_date"
+                class="reservation__form reservation_form__label"
                 >Fecha y hora *</label
               >
               <input
@@ -142,7 +152,9 @@
                 name="reservation_date"
                 required
               />
-              <label for="email" class="form__label"
+              <label
+                for="email"
+                class="reservation__form reservation_form__label"
                 >Tu correo electrónico *</label
               >
               <input
