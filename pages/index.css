@@ -87,7 +87,6 @@
   font-style: italic;
   font-size: 58px;
   line-height: 72px;
-  color: #2f80ed;
 }
 .sub-title {
   font-weight: 500;
@@ -181,4 +180,125 @@
   line-height: 30px;
 }
 .duration {
+}
+.reservation {
+  background-image: url("../images/background_reservation.svg");
+  color: #d9e7ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title_reservation {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.reservation__form {
+  display: flex;
+  justify-content: center;
+}
+.form__label {
+  color: #000000;
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form__name {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  border: 1px solid #838383;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form_comensales {
+  border-radius: 4px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 0;
+  border: 1px solid #838383;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form_email {
+  border-radius: 4px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 0;
+  border: 1px solid #838383;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form_date {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 32px;
+  padding: 0;
+  border: 1px solid #838383;
+}
+.reservation__form__button {
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 32px;
+  opacity: 0.7;
+  height: 60px;
+  display: block;
+  background-color: #2f80ed;
+  color: #ffffff;
+  max-width: 385px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.reservation__form_terminos {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+}
+.form__label {
+  display: block;
+}
+.reservation__form__text_terminos {
+  color: #000000;
+  margin-bottom: 120px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.questionnaire {
+  max-width: 385px;
+  padding: 0%;
+  border: none;
+}
+.reservation__form_input::placeholder {
+  padding-left: 20px;
+  padding-top: 15px;
 }
