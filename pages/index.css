@@ -181,7 +181,7 @@
 }
 .duration {
 }
-.reservation {
+.reservation__title {
   background-image: url("../images/background_reservation.svg");
   color: #d9e7ff;
   background-size: cover;
