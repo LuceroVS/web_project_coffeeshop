@@ -106,15 +106,11 @@
             </div>
           </div>
         </section>
-        <section class="reservation__title" id="reservation">
-          <h2 class="reservation reservation_title_reservation">
-            Reservar una mesa
-          </h2>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation reservation_title">Reservar una mesa</h2>
           <form class="reservation__form">
             <fieldset class="questionnaire">
-              <label form="name" class="reservation_form__label"
-                >Nombre *</label
-              >
+              <label for="name" class="reservation_form__label">Nombre *</label>
               <input
                 type="text"
                 class="reservation__form reservation__form__name reservation__form_input"
@@ -123,7 +119,7 @@
                 placeholder="Nombre"
                 required
               /><br />
-              <label form="comensales" class="reservation_form__label"
+              <label for="comensales" class="reservation_form__label"
                 >Número de comensales *</label
               >
               <input
@@ -136,7 +132,7 @@
                 placeholder="1-8"
                 required
               /><br />
-              <label form="reservation_date" class="reservation_form__label"
+              <label for="reservation_date" class="reservation_form__label"
                 >Fecha y hora *</label
               >
               <input
@@ -146,7 +142,7 @@
                 name="reservation_date"
                 required
               />
-              <label form="email" class="reservation_form__label"
+              <label for="email" class="reservation_form__label"
                 >Tu correo electrónico *</label
               >
               <input
@@ -160,7 +156,7 @@
               <button type="submit" class="reservation__form__button">
                 Reservar una mesa</button
               ><br />
-              <label form="terminos" class="reservation__form__text_terminos"
+              <label for="terminos" class="reservation__form__text_terminos"
                 ><input
                   type="checkbox"
                   name="terminos"

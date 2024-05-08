@@ -181,13 +181,13 @@
 }
 .duration {
 }
-.reservation__title {
+.reservation {
   background-image: url("../images/background_reservation.svg");
   color: #d9e7ff;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.title_reservation {
+.reservation_title {
   color: #000000;
   display: flex;
   justify-content: center;
