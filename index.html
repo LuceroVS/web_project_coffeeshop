@@ -107,30 +107,26 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <h2 class="reservation reservation__title">Reservar una mesa</h2>
-          <form class="reservation_form">
+          <div class="reservation__title">Reservar una mesa</div>
+          <form class="reservation reservation__form">
             <fieldset class="questionnaire">
-              <label
-                for="name"
-                class="reservation_form reservation__form__label"
+              <label for="name" class="reservation__form__label"
                 >Nombre *</label
               >
               <input
                 type="text"
-                class="reservation_form reservation__form__name reservation__form_input"
+                class="reservation__form__name reservation__form_input"
                 id="name"
                 name="name"
                 placeholder="Nombre"
                 required
               /><br />
-              <label
-                for="comensales"
-                class="reservation_form reservation_form__label"
+              <label for="comensales" class="reservation__form__label"
                 >Número de comensales *</label
               >
               <input
                 type="number"
-                class="reservation_form reservation__form_comensales reservation__form_input"
+                class="reservation__form_comensales reservation__form_input"
                 min="1"
                 max="8"
                 id="comensales"
@@ -138,45 +134,36 @@
                 placeholder="1-8"
                 required
               /><br />
-              <label
-                for="reservation_date"
-                class="reservation_form reservation_form__label"
+              <label for="reservation_date" class="reservation__form__label"
                 >Fecha y hora *</label
               >
               <input
                 type="datetime-local"
-                class="reservation_form reservation__form_date reservation__form_input"
+                class="reservation__form_date reservation__form_input"
                 id="reservation_date"
                 name="reservation_date"
                 required
               />
-              <label
-                for="email"
-                class="reservation_form reservation_form__label"
+              <label for="email" class="reservation__form__label"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
-                class="reservation_form reservation__form_email reservation__form_input"
+                class="reservation__form_email reservation__form_input"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
                 required
               /><br />
-              <button
-                type="submit"
-                class="reservation_form reservation__form__button"
-              >
+              <button type="submit" class="reservation__form__button">
                 Reservar una mesa</button
               ><br />
-              <label
-                for="terminos"
-                class="reservation_form reservation__form__text_terminos"
+              <label for="terminos" class="reservation__form__text_terminos"
                 ><input
                   type="checkbox"
                   name="terminos"
                   id="terminos"
-                  class="reservation_form reservation__form_terminos"
+                  class="reservation__form_terminos"
                   required
                 />
                 Acepto los términos de uso</label
