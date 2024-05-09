@@ -4,9 +4,6 @@
   background-repeat: no-repeat;
   background-color: #0a2750;
 }
-.recipies__header__recipes {
-  margin-left: 80px;
-}
 .recipes__title {
   display: inline-flex;
   max-width: 580px;
