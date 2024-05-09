@@ -1,4 +1,4 @@
-.form__questionnaire_label {
+.questionnaire__label {
   color: #000000;
   margin-bottom: 8px;
   font-family: Inter;
@@ -90,7 +90,7 @@
   line-height: 20px;
 }
 
-.form__questionnaire {
+.questionnaire {
   max-width: 385px;
   padding: 0%;
   border: none;
