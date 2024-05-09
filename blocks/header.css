@@ -30,14 +30,14 @@
   font-weight: normal;
 }
 
-.span-accent {
+.header-accent {
   color: #2f80ed;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 58px;
   line-height: 72px;
 }
-.sub-title {
+.header-sub {
   font-weight: 500;
   font-style: normal;
   font-family: "Inter", Arial, sans-serif;
