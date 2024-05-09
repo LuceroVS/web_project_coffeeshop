@@ -108,24 +108,22 @@
         <section class="reservation" id="reservation">
           <div class="reservation__title">Reservar una mesa</div>
           <form class="form reservation__form">
-            <fieldset class="form__questionnaire">
-              <label for="name" class="form__questionnaire_label"
-                >Nombre *</label
-              >
+            <fieldset class="form">
+              <label for="name" class="for__label">Nombre *</label>
               <input
                 type="text"
-                class="questionnaire__name questionnaire__input"
+                class="form__name form__input"
                 id="name"
                 name="name"
                 placeholder="Nombre"
                 required
               /><br />
-              <label for="comensales" class="questionnaire__label"
+              <label for="comensales" class="for__label"
                 >Número de comensales *</label
               >
               <input
                 type="number"
-                class="questionnaire__comensales questionnaire__input"
+                class="form__comensales form__input"
                 min="1"
                 max="8"
                 id="comensales"
@@ -133,32 +131,32 @@
                 placeholder="1-8"
                 required
               /><br />
-              <label for="reservation_date" class="questionnaire__label"
+              <label for="reservation_date" class="for__label"
                 >Fecha y hora *</label
               >
               <input
                 type="datetime-local"
-                class="questionnaire__date questionnaire__input"
+                class="form__date form__input"
                 id="reservation_date"
                 name="reservation_date"
                 required
               />
-              <label for="email" class="questionnaire__label"
+              <label for="email" class="for__label"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
-                class="questionnaire__email questionnaire__input"
+                class="form__email form__input"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
                 required
               /><br />
-              <button type="submit" class="questionnaire__button">
+              <button type="submit" class="form__reserva">
                 Reservar una mesa</button
               ><br />
-              <div class="terminos">
-                <label for="terminos" class="terminos__text"
+              <div class="form__terminos">
+                <label for="terminos" class="form__text"
                   ><input
                     type="checkbox"
                     name="terminos"
